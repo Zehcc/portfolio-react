@@ -1,0 +1,19 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  .nav-item {
+    margin: 15px;
+    @include tablet {
+      margin: 15px 50px;
+    }
+    color: #f5f5dc;
+    font-size: 27px;
+  }
+
+  .active {
+    color: #00ff33;
+  }
+}

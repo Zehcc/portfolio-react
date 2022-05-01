@@ -1,0 +1,144 @@
+.home-container {
+  margin: 40px 20px;
+
+  .article-container-0 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 25px;
+    flex-wrap: wrap;
+
+    .article-img-container {
+      height: 300px;
+      width: 300px;
+      margin: 0 25px;
+
+      img {
+        height: 100%;
+        border-radius: 500px;
+      }
+    }
+
+    .article-txt-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-width: 350px;
+      max-width: 600px;
+      margin: 25px;
+      padding: 0 30px;
+      @include wrap {
+        min-height: 300px;
+        margin: 0 25px;
+      }
+
+      h2 {
+        margin: 0;
+        color: #81c784;
+        font-size: 32px;
+      }
+
+      p {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .article-container-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    @include wrap {
+      margin-top: 25px;
+    }
+
+    .article-img-container {
+      height: 300px;
+      width: 300px;
+      margin: 0 25px;
+      @include wrap {
+        order: 2;
+      }
+
+      img {
+        height: 100%;
+        border-radius: 500px;
+      }
+    }
+
+    .article-txt-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-width: 350px;
+      max-width: 600px;
+      margin: 25px;
+      padding: 0 30px;
+      @include wrap {
+        min-height: 300px;
+        margin: 0 25px;
+      }
+
+      h2 {
+        margin: 0;
+        color: #81c784;
+        font-size: 32px;
+      }
+
+      p {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .article-container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    @include wrap {
+      margin-top: 25px;
+    }
+
+    .article-img-container {
+      height: 300px;
+      width: 300px;
+      margin: 0 25px;
+
+      img {
+        height: 100%;
+        border-radius: 500px;
+      }
+    }
+
+    .article-txt-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-width: 350px;
+      max-width: 600px;
+      margin: 25px;
+      padding: 0 30px;
+      @include wrap {
+        min-height: 300px;
+        margin: 0 25px;
+      }
+
+      h2 {
+        margin: 0;
+        color: #81c784;
+        font-size: 32px;
+      }
+
+      p {
+        font-size: 20px;
+      }
+    }
+  }
+}
