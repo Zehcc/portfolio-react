@@ -12,7 +12,7 @@ export const data = {
         {
             title: "¿Qué puedo aportar?",
             image: "/assets/aportar.png",
-            text: "Tengo una gran capacidad de absorber conocimiento, soy de aprendizaje rápido. También soy muy observador, me fijo mucho en los detalles de todo lo que me rodea y soy meticuloso con todo lo que hago, y en el mundo de la programación he podido descubrir que los pequeños detalles es casi lo más importante. Me gusta trabajar en equipo, y siempre intento aportar a cualquier problema que puedan tener mis compañeros, explicándoles paso a paso como lo solucionaría yo, explicándolo paso a paso para que se entienda el desarrollo, y no sólo el resultado."
+            text: "Tengo una gran capacidad de absorber conocimiento, soy de aprendizaje rápido. También soy muy observador, me fijo mucho en los detalles de todo lo que me rodea y soy meticuloso con todo lo que hago, y en el mundo de la programación he podido descubrir que los pequeños detalles es casi lo más importante. Me gusta trabajar en equipo, y siempre intento aportar a cualquier problema que puedan tener mis compañeros, compartiendo como lo solucionaría yo, explicándolo paso a paso para que se entienda el desarrollo, y no sólo el resultado."
         },
         {
             title: "¿Qué estoy buscando?",
@@ -39,7 +39,7 @@ export const data = {
             name: "Curriculum",
             languajes: "HTML, CSS, JS, React",
             image: "/assets/cv.png",
-            description: "Primera toma de contacto con react, familiarizandome con el useState y el manejo de datos.",
+            description: "Primera toma de contacto con react, familiarizándome con el useState y el manejo de datos.",
             links: ["http://cv-react-one.vercel.app/","https://github.com/Zehcc/CV-React-first-project"]
         },
         {
@@ -67,14 +67,14 @@ export const data = {
             name: "Star Wars",
             languajes: "HTML, CSS, JS, React, Node",
             image: "/assets/starwars.png",
-            description: "Proyecto de react con autenticación (logeando/atacando una API REST propia), que depende de si estas logeado o no te muestra cosas diferentes. También tiene página de detalle de cada uno de sus personajes, y además puedes agregar a favoritos los que más te gusten. ¡Pruébalo! Uso de paginación, useState, useEffect, useContext...",
+            description: "Proyecto de react con autenticación (logeando/atacando una API REST propia), que depende de si estás logeado o no te muestra cosas diferentes. También tiene página de detalle de cada uno de sus personajes, y además puedes agregar a favoritos los que más te gusten. ¡Pruébalo! Uso de paginación, useState, useEffect, useContext...",
             links: ["https://star-wars-app-react.vercel.app/home","https://github.com/Zehcc/star-wars-app-react"]
         },
         {
             name: "Estudio Ghibli",
             languajes: "HTML, CSS, TS, Angular",
             image: "/assets/ghibli.png",
-            description: "Primer contacto con Angular, proyecto atacando a una API REST pública sobre Ghibli, tratando los datos devueltos y fixeando las páginas de localizaciones y vehículos, que vienen sin imagenes. ¡Paginación con navbar y vista detalle de cada una de las películas!",
+            description: "Primer contacto con Angular, proyecto atacando a una API REST pública sobre Ghibli, tratando los datos devueltos y fixeando las páginas de localizaciones y vehículos, que vienen sin imágenes. ¡Paginación con navbar y vista detalle de cada una de las películas!",
             links: ["https://ghibli-angular-project.vercel.app/home","https://github.com/Zehcc/ghibli-angular-project"]
         }
     ]
