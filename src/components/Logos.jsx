@@ -5,6 +5,7 @@ import {
   SiTypescript as TS,
   SiReact as React,
   SiAngular as Angular,
+  SiNodedotjs as Node,
 } from "react-icons/si";
 
 const Logos = ({ languajes }) => {
@@ -37,7 +38,12 @@ const Logos = ({ languajes }) => {
       )}
       {languajes.includes("Angular") && (
         <div className='logo'>
-          <Angular color='green' size={30} />
+          <Angular color='maroon' size={30} />
+        </div>
+      )}
+      {languajes.includes("NodeJS") && (
+        <div className='logo'>
+          <Node color='green' size={30} />
         </div>
       )}
     </div>

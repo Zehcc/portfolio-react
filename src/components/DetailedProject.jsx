@@ -37,6 +37,18 @@ const DetailedProject = () => {
         >
           <i>Ver repositorio de github</i>
         </a>
+        {detailedProject.links[2] && (
+          <div>
+            <a
+              className='link-text'
+              href={detailedProject.links[2]}
+              target='_blank'
+              rel='noreferrer'
+            >
+              <i>Ver repositorio API Rest</i>
+            </a>
+          </div>
+        )}
       </div>
     </div>
   );

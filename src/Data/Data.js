@@ -30,7 +30,7 @@ export const data = {
         },
         {
             name: "Tienda de videojuegos",
-            languajes: "HTML, CSS, JS, Node",
+            languajes: "HTML, CSS, JS, NodeJS",
             image: "/assets/tienda.png",
             description: "Proyecto simulando una tienda de videojuegos, creando una API REST propia y atacándola. Varias funcionalidades, buscador de juegos por categoría, por nombre, por plataforma, por consola... También con detalles de cada uno de los videojuegos o consolas de manera individual.",
             links: ["http://videogames-app-zeta.vercel.app/","https://github.com/Zehcc/videogames-app", "https://github.com/Zehcc/videogames-api"]
@@ -65,10 +65,10 @@ export const data = {
         },
         {
             name: "Star Wars",
-            languajes: "HTML, CSS, JS, React, Node",
+            languajes: "HTML, CSS, JS, React, NodeJS",
             image: "/assets/starwars.png",
             description: "Proyecto de react con autenticación (logeando/atacando una API REST propia), que depende de si estás logeado o no te muestra cosas diferentes. También tiene página de detalle de cada uno de sus personajes, y además puedes agregar a favoritos los que más te gusten. ¡Pruébalo! Uso de paginación, useState, useEffect, useContext...",
-            links: ["https://star-wars-app-react.vercel.app/home","https://github.com/Zehcc/star-wars-app-react"]
+            links: ["https://star-wars-app-react.vercel.app/home","https://github.com/Zehcc/star-wars-app-react","https://github.com/Zehcc/videogames-api"]
         },
         {
             name: "Estudio Ghibli",
