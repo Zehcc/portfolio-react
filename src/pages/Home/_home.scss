@@ -51,9 +51,6 @@
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 50px;
-    @include wrap {
-      margin-top: 25px;
-    }
 
     .article-img-container {
       height: 300px;
@@ -101,9 +98,6 @@
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 50px;
-    @include wrap {
-      margin-top: 25px;
-    }
 
     .article-img-container {
       height: 300px;
