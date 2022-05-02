@@ -61,7 +61,7 @@ export const data = {
             languajes: "HTML, CSS, JS, React",
             image: "/assets/rick.png",
             description: "Proyecto con react atacando la API pública de Rick & Morty para obtener datos. Compuesto por varias páginas. Una home que es la página de inicio, una página general de personajes con paginación mostrándolos de 20 en 20, un buscador donde puedes escribir el nombre de tu personaje favorito, y además puedes añadir a tu imagen de perfil la foto del personaje que más te guste. ¡Pruébalo!.",
-            links: ["rick-and-morty-lhlr93i95-zehcc.vercel.app", "https://github.com/Zehcc/rick-and-morty-project-"]
+            links: ["https://rick-and-morty-lhlr93i95-zehcc.vercel.app", "https://github.com/Zehcc/rick-and-morty-project-"]
         },
         {
             name: "Star Wars",
