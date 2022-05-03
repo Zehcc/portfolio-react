@@ -68,7 +68,7 @@ export const data = {
             languajes: "HTML, CSS, JS, React, NodeJS",
             image: "/assets/starwars.png",
             description: "Proyecto de react con autenticación (logeando/atacando una API REST propia), que depende de si estás logeado o no te muestra cosas diferentes. También tiene página de detalle de cada uno de sus personajes, y además puedes agregar a favoritos los que más te gusten. ¡Pruébalo! Uso de paginación, useState, useEffect, useContext...",
-            links: ["https://star-wars-app-react.vercel.app/home","https://github.com/Zehcc/star-wars-app-react","https://github.com/Zehcc/videogames-api"]
+            links: ["https://star-wars-app-react.vercel.app/home","https://github.com/Zehcc/star-wars-app-react"]
         },
         {
             name: "Estudio Ghibli",
