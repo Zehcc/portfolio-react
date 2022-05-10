@@ -5,9 +5,7 @@ const DetailedProject = () => {
   const { projects } = data;
   const { name } = useParams();
   const detailedProject = projects.find((project) => project.name === name);
-  console.log(detailedProject);
 
-  console.log(name);
   return (
     <div className='detailed-project-container'>
       <Link to='/projects'>

@@ -4,7 +4,7 @@ import Navbar from "../Navbar/Navbar";
 
 const Header = () => {
   const { header } = data;
-  console.log(header);
+
   return (
     <div>
       <div>

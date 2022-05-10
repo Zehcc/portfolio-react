@@ -76,6 +76,13 @@ export const data = {
             image: "/assets/ghibli.png",
             description: "Primer contacto con Angular, proyecto atacando a una API REST pública sobre Ghibli, tratando los datos devueltos y fixeando las páginas de localizaciones y vehículos, que vienen sin imágenes. ¡Paginación con navbar y vista detalle de cada una de las películas!",
             links: ["https://ghibli-angular-project.vercel.app/home","https://github.com/Zehcc/ghibli-angular-project"]
+        }, 
+        {
+            name: "Upgrade Jobs",
+            languajes: "HTML, CSS, JS, React, NodeJS",
+            image: "/assets/upgradejobs.png",
+            description: "Proyecto final del bootcamp. Es  una web de búsqueda de empleo, realizada en equipo con otros dos compañeros, usando herramientas como Trello para el reparto de tareas, y trabajando cada uno en nuestra propia rama de Github. API Rest con dos tipos de usuarios, que en la parte de front tienen dos vistas completamente diferentes. Cualquier cambio de candidatura es informado a través de un correo mediante el uso de la librería EmailJS. La app también cuenta con un live-chat con el que las empresas pueden contactar con el candidato, y éste, una vez que ha recibido el primer mensaje puede interactuar con ellos. Realizado con la librería Socket-io. ¡ Haz clic en desplegar proyecto para probarla !",
+            links: ['https://upgrade-jobs-app.vercel.app','https://github.com/Zehcc/upgrade-jobs-app', 'https://github.com/Rubenoti/upgradejobs-back']
         }
     ]
 }
