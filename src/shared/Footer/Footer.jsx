@@ -9,7 +9,7 @@ const Footer = ({ github, email, linkedin }) => {
         rel='noreferrer'
         href='https://www.linkedin.com/in/tomassanchezmedina/'
       >
-        <img src='./Assets/linkedin.png' alt='Linkedin' />
+        <img src='./assets/linkedin.png' alt='Linkedin' />
       </a>
       <a
         title='Github'
@@ -17,7 +17,7 @@ const Footer = ({ github, email, linkedin }) => {
         rel='noreferrer'
         href='https://github.com/Zehcc'
       >
-        <img src='./Assets/github.png' alt='Github' />
+        <img src='./assets/github.png' alt='Github' />
       </a>
       <a
         title='Gmail'
@@ -25,7 +25,7 @@ const Footer = ({ github, email, linkedin }) => {
         rel='noreferrer'
         href='mailto: tomas.sanchez.developer@gmail.com'
       >
-        <img src='./Assets/gmail.png' alt='Gmail' />
+        <img src='./assets/gmail.png' alt='Gmail' />
       </a>
     </div>
   );

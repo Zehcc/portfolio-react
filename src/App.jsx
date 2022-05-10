@@ -3,7 +3,7 @@ import ProjectsPage from "./pages/ProjectsPage/ProjectsPage";
 import Home from "./pages/Home/Home";
 import DetailedProjectPage from "./pages/DetailedProject/DetailedProjectPage";
 import Header from "./shared/Header/Header";
-import Footer from "../src/components/Footer/Footer";
+import Footer from "./shared/Footer/Footer";
 import {
   BrowserRouter as Router,
   Routes,
