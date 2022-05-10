@@ -1,7 +1,7 @@
 export const data = {
     header: {
         title: "Tomás Sánchez Medina",
-        subtitle: "FullStack Developer Junior"
+        subtitle: "FullStack Developer"
     },
     home: [
         {
