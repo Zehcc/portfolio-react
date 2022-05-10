@@ -3,6 +3,7 @@ import ProjectsPage from "./pages/ProjectsPage/ProjectsPage";
 import Home from "./pages/Home/Home";
 import DetailedProjectPage from "./pages/DetailedProject/DetailedProjectPage";
 import Header from "./shared/Header/Header";
+import Footer from "../src/components/Footer/Footer";
 import {
   BrowserRouter as Router,
   Routes,
@@ -21,6 +22,7 @@ function App() {
           <Route path='project/:name' element={<DetailedProjectPage />} />
           <Route path='*' element={<Navigate to='home' />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );
